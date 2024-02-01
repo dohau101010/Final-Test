@@ -37,6 +37,7 @@ btnOn3.onclick = function () {
     Air: 1,
   });
 };
+
 btnOff3.onclick = function () {
   document.getElementById("air_01").src = "../img/air-off.jpg";
   firebase.database().ref("/Air").update({
